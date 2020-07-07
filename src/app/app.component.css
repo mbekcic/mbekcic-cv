@@ -89,8 +89,3 @@ a {
   font-size: x-large;
   text-align: start;
 }
-@media (orientation: portait) {
-  .wrapper {
-    display: none;
-  }
-}
