@@ -71,6 +71,8 @@ a {
 }
 .components {
   width: 60%;
+  overflow-y: scroll;
+  padding-bottom: 10%;
 }
 .proba {
   display: flex;
@@ -86,4 +88,9 @@ a {
   font-family: monospace;
   font-size: x-large;
   text-align: start;
+}
+@media (orientation: portait) {
+  .wrapper {
+    display: none;
+  }
 }
